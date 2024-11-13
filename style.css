@@ -133,7 +133,7 @@ html {
   text-align: center;
   background: var(--light-bg);
   z-index: 1000; /* Ensure dropdown appears above other content */
-  background-color: #fafafa;
+  background-color: var(--back-color);
   transition: top 0.5s ease-in-out; /* Smooth slide-in effect */
 }
 
@@ -153,6 +153,8 @@ html {
 }
 
 .dropdown-navbar-menu li a {
+  font-size: 2rem;
+  margin: 1rem 1rem;
   display: block;
   padding: .5rem;
   text-decoration: none;
